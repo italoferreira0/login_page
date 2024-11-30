@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(109, 125, 150, 0.733);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    background-color: rgba(22, 40, 87, 0.692);
+    justify-content: center;
+    border-bottom: solid 8px;
+    border-color: gainsboro;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    margin: 40px;
+    text-decoration: none;
+    color: rgb(36, 37, 39);
+
+}
+
+.navbar ul li a:hover {
+    color: rgb(221, 195, 195);
+
+}
+
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.603);
+    
+}
+
+.Login {
+    box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.719);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 80px;
+    background-color: rgba(195, 191, 199, 0.452);
+    height: 350px;
+    width: 350px;
+}
+
+
+.form_Login label {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form_Login input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    height: 40px;
+}
+
+div {
+    margin-top: 40px;
+}
+
+.botao {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao a{
+    text-decoration: none;
+    color: black;
+}
+.botao a:hover{
+    text-decoration: none;
+    color: rgb(221, 195, 195);
+}
+.botao:hover {
+    transition: 0.8s;
+    background-color: rgb(36, 37, 39);
+    color: rgb(221, 195, 195);
+}
+
+
+.footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 40, 87, 0.692);
+    color: white;
+    font-size: 14px;
+
+}
